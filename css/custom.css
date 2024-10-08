@@ -1,8 +1,12 @@
-body{
-    background-color: azure;
+/*===========================
+Common CSS
+=============================*/
+
+
+#header-area{
+    padding: 15px 0;
 }
 
-h1{
-    color: red;
-    font-size: 70px;
+#header-area img{
+    max-width: 100%;
 }

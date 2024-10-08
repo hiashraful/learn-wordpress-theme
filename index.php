@@ -14,8 +14,18 @@
 </head>
 <body <?php body_class(); ?>>
     
-    <!-- Content -->
-     <h1>Hello</h1>
+    <div id="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href=""><img src=" <?php echo get_theme_mod('devash_logo'); ?>" alt="Logo"></a>
+                </div>
+                <div class="col-md-9">
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <?php wp_footer(); ?>
 </body>
